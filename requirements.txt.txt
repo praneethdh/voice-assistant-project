@@ -1,0 +1,33 @@
+# Voice-Controlled Desktop Assistant (Python)
+
+This is a Python-based desktop voice assistant that responds to voice commands like opening apps, sending emails, searching the web, playing music, and even answering questions using OpenAI's GPT model.
+
+## ✨ Features
+
+- Voice activation via "Hey Assistant"
+- Open applications like Chrome, YouTube, Microsoft Store
+- Search Google or play music on YouTube
+- Search and open files/folders on your Desktop
+- Send emails via Gmail
+- Get responses to general questions via OpenAI
+- Animated GUI using Tkinter
+
+## 🛠️ Tech Stack
+
+- Python
+- `pyttsx3` (Text-to-speech)
+- `speech_recognition` + `sounddevice` (Voice input)
+- `pywhatkit`, `webbrowser`, `subprocess` (App control)
+- `openai` (ChatGPT API integration)
+- `tkinter` (UI animation)
+- `smtplib` (Email support)
+- `dotenv` (Environment variable management)
+
+## 🔐 Setup & Secrets (IMPORTANT)
+
+To keep your API keys and passwords safe, secrets are stored in a `.env` file (not pushed to GitHub).
+
+### 1. Install dependencies
+
+```bash
+pip install -r requirements.txt
